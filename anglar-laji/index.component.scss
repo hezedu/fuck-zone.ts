@@ -1,0 +1,32 @@
+h1{
+    color: #000;
+}
+.invite-nav{
+    display: flex;
+    justify-content:space-around;
+    padding-bottom: 200px;
+    a.invite-nav-active{
+        color: red;
+    }
+}
+a {
+    color: #000;
+}
+
+ul, li{
+    display: flex;
+    flex-wrap: wrap;
+}
+.textarea-wrap{
+    display: flex;
+    >div{
+        width: 50%;
+    }
+}
+textarea{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    height: 300px;
+    background-color: #eee;
+}

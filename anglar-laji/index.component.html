@@ -1,0 +1,22 @@
+<!-- <div class="invite-nav">
+    <a routerLink = './' routerLinkActive="invite-nav-active" [routerLinkActiveOptions]="{exact:
+      true}">邀请好友</a>
+    <a routerLink = './tribute' routerLinkActive="invite-nav-active">徒儿进贡</a>
+    <a routerLink = './awaken' routerLinkActive="invite-nav-active">唤醒徒儿</a>
+  </div> -->
+  <!-- <router-outlet></router-outlet> -->
+<div class="textarea-wrap">
+  <div>
+      <h2>没有绑定</h2>
+  <textarea class="unbind"></textarea>
+</div>
+<div>
+    <h2>keydown 绑定了一个空函数</h2>
+  <textarea class="bind-empty" (keydown)="handleKeydown()"></textarea>
+</div>
+</div>
+  <ul>
+    <li *ngFor="let v of list">
+      {{v | json}}
+    </li>
+  </ul>
