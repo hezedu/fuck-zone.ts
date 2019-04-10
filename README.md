@@ -15,5 +15,3 @@ this.fuckZoneBind(document.body, 'scroll', (e) =>{
 ```
 Don't need UnBind. 
 
-
-# Angular is bullshit!
